@@ -8,11 +8,11 @@ class RubyServiceProvider extends ServiceProvider
 {
     public function register(): void
     {
-        info('ruby registered');
+        info('ruby updated registered');
     }
 
     public function boot(): void
     {
-        info('ruby booted');
+        info('ruby updated booted');
     }
 }
